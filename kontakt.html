@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Being Traveller</title>
     <link rel="stylesheet" href="assets/stylesheets/main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
 </head>
 <body>
     <header class="primary-header container group">
@@ -34,9 +34,44 @@
     </section>
 
     <section class="row">
-        <div class="grid">
-            <h3>Kontakt!</h3>
+
+        <div class="grid container">
+
+            <section class="col-4-3">
+
+                <h3>Kontakt</h3>
+
+                <h4>Chętnie posłuchamy państwa uwag, zapraszamy do kontaktu!</h4>
+
+            </section>
+
+            <form class="col-3-3" action="#" method="post">
+
+                <fieldset class="contact-group">
+
+                    <label>
+                        Imię
+                        <input type="text" name="name" placeholder="Full name" required>
+                    </label>
+            
+                    <label>
+                        Email
+                        <input type="email" name="email" placeholder="Email address" required>
+                    </label>
+
+                    <label>
+                        Treść
+                        <textarea name="comments"></textarea>
+                    </label>
+            
+                </fieldset>
+            
+                    <input class="btn btn-default" type="submit" name="submit" value="Wyślij">
+            
+            </form>
+
         </div>
+
     </section>
 
     <footer class="primary-footer container group">
